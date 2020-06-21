@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Box</title>
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>  
+
+           <div class="img">
+             <img src="img/index.jpg" alt="">
+           </div>
+             <div class="co">
+                  <h1> Welcome To Boredom killer CHATBOT!</h1>
+                    <P> Catch some fun by asking some questons about me.</P>
+                       <img src="img/user.jpg" alt="">
+                         <p>NOTE:Click on your ENTER key to activate chats</p>
+             </div>
+                     
+      <button class="open-button" onclick="openForm()" style='font-size:24px'> Click Here to ask your question</i></button>
+      <div class="form-popup fadeout" id="myForm">
+         <div class="form-container">
+            <h1>CHATBOT</h1>
+                <div id="main">
+                  <div class="ch"> BOT: <span id="chatbot"></span></div>
+                  <div class="u">USER: <span id="user"></span></div>
+                  <div><input id="input" type="text" placeholder="type here..." autocomplete="off"/></div>
+            </div>
+          </div>
+
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </div>
+      </div>
+    <script src="chatbot.js"></script>
+
+      </script>
+</body>
+</html>
