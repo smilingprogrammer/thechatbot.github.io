@@ -47,8 +47,6 @@ document.querySelector("#input").addEventListener("keypress", function(e){
 	}
 });
 
-
-
 function output(input){
 	try{
 		const product = input + "=" + eval(input);
