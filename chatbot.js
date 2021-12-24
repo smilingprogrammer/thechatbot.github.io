@@ -92,5 +92,3 @@ function speak(string){
 // const open = document.querySelector('.myform');
 
 // const playBtn = document.querySelector('.intro button');
-
-
